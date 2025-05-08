@@ -86,8 +86,8 @@ const Generate = () => {
 
     return (
 
-        <div className='grid grid-cols-2 min-h-screen bg-[#E9C0E9] '>
-            <div className='flex flex-col justify-center items-center gap-5 mt-4'>
+        <div className='grid md:grid-cols-2 min-h-screen bg-[#E9C0E9] '>
+            <div className='flex flex-col justify-center items-center gap-5 max-md:mt-14 mt-4'>
                 <h1 className='font-bold text-4xl'>Create your links here</h1>
                 <div className='flex flex-col gap-4 w-80 '>
                     <h2 className='font-semibold text-2xl'>Step 1: Create your Handle</h2>
@@ -110,7 +110,7 @@ const Generate = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-full h-screen flex items-center justify-center'>
+            <div className='w-full h-screen flex items-center justify-center max-md:hidden'>
                 <img src="/generate.png" alt="" className=' h-full object-contain' />
             </div>
             <ToastContainer />

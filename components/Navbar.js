@@ -16,7 +16,7 @@ const Navbar = () => {
         <>
 
             {showNavbar && <nav className='w-full relative '>
-                <div className='w-[92vw] fixed left-12  bg-white flex justify-between items-center m-auto p-3 rounded-4xl mt-5'>
+                <div className='w-[92vw] max-md:w-full fixed md:left-12  bg-white flex justify-between items-center m-auto p-3 rounded-4xl mt-5'>
                     <div className='flex items-center gap-6 mx-5 '>
                         <div className="logo text-2xl">
                             <Link href={"/"}>
@@ -30,8 +30,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='flex gap-4'>
-                        <button className='cursor-pointer bg-gray-200 text-xs font-bold px-4 py-2 rounded'>Login</button>
-                        <button className='cursor-pointer bg-black px-5 py-3 text-xs font-bold text-white rounded-4xl'>Sign up free</button>
+                        <button className='cursor-pointer max-md:hidden bg-gray-200 text-xs font-bold px-4 py-2 rounded'>Login</button>
+                        <button className='cursor-pointer max-md:hidden bg-black px-5 py-3 text-xs font-bold text-white rounded-4xl'>Sign up free</button>
                     </div>
                 </div>
             </nav>}

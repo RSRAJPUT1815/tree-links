@@ -12,8 +12,10 @@ export async function POST(request) {
   // Check if the user already exists
   const user = await collection.findOne({ handle: body.handle })
   if (user) {
-    return Response.json({ success: false, error: true, message: "Handle already exists", result: null })
-    
+    //return Response.json({ success: false, error: true, message: "Handle already exists", result: null })
+    await collection.updateOne(
+      { handle: body.handle },
+      { $push: { Links: { $each: body.Links } } })
   }
 
   const result = await collection.insertOne(body)
