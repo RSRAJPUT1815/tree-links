@@ -27,8 +27,6 @@ const Navbar = () => {
                             <Link href={"/"}><li className='p-2 cursor-pointer rounded hover:bg-gray-200'>Products</li></Link>
                             <Link href={"/generate"}><li className='p-2 cursor-pointer rounded hover:bg-gray-200'>Generate</li></Link>
                             <Link href={"/about"}><li className='p-2 cursor-pointer rounded hover:bg-gray-200'>About</li></Link>
-                            <Link href={"/"}><li className='p-2 cursor-pointer rounded hover:bg-gray-200'>Learn</li></Link>
-                            <Link href={"/"}><li className='p-2 cursor-pointer rounded hover:bg-gray-200'>Pricing</li></Link>
                         </ul>
                     </div>
                     <div className='flex gap-4'>

@@ -6,7 +6,7 @@ export default function AboutPage() {
         <section className="mt-30">
           <h2 className="text-2xl font-semibold mb-2">Empowering You to Share More, Simply</h2>
           <p className="text-lg leading-relaxed">
-            Welcome to <span className="font-bold">LinkZee</span> – your all-in-one hub to connect your audience
+            Welcome to <span className="font-bold">Linktree</span> – your all-in-one hub to connect your audience
             with everything you do. Whether you're a content creator, business owner, influencer, or hobbyist, LinkZee helps
             you bring all your links together in one simple, beautiful place.
           </p>
